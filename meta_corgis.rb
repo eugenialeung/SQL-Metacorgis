@@ -138,4 +138,11 @@ class MetaCorgiSnacks
       tastiness > 30? "*#{result}" : result
     end
   end
+
+  # pry(main)> load 'meta_corgis.rb'
+  # pry(main)> snack_box = SnackBox.new
+  # pry(main)> meta_snacks = MetaCorgiSnacks.new(snack_box, 1)
+  # pry(main)> meta_snacks.bone # => "Bone: Phoenician rawhide: 20 "
+  # pry(main)> meta_snacks.kibble # => "* Kibble: Delicately braised hamhocks: 33 "
+  # pry(main)> meta_snacks.treat # => "Treat: Chewy dental sticks:
 end
